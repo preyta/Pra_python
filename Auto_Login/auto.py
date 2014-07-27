@@ -19,4 +19,4 @@ print 'retrieved', fd.geturl()
 info=fd.info()
 for key, value in info.items():
     print '%s=%s' %(key, value)
-print urllib2.urlopen(req).read()
+print urllib2.urlopen(req).geturl()
